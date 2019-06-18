@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CC2354122B8853E00F5A36D /* SampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2354022B8853E00F5A36D /* SampleClass.swift */; };
+		2CC2354322B8A83500F5A36D /* SampleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2354222B8A83500F5A36D /* SampleClass.swift */; };
 		356A532108BBCA7AB66CE06393C6C49A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		3B2DAACF5B057F30DEBD8F124146D9BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		525F6AEDC5B642EA36789AB5E1C7A750 /* Pods-FLCommonLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D563D4FDB67B02AF87C5998DCC1B2E /* Pods-FLCommonLibrary_Tests-dummy.m */; };
@@ -43,7 +43,7 @@
 		2653AE1149174F1758CDE3255C9A0672 /* Pods-FLCommonLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLCommonLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		29BE16D43464ED8494C3D8E9EF0B836F /* Pods-FLCommonLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLCommonLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2A90D33AE770738BB084AFA8DDB9E9CA /* Pods-FLCommonLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FLCommonLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		2CC2354022B8853E00F5A36D /* SampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleClass.swift; sourceTree = "<group>"; };
+		2CC2354222B8A83500F5A36D /* SampleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleClass.swift; path = FLCommonLibrary/Classes/SampleClass.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		47B213E03CA9E24B4B934C5D5269929E /* Pods-FLCommonLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLCommonLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4F5467B8E130FE799D93C329093648E5 /* Pods-FLCommonLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FLCommonLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -166,7 +166,7 @@
 		65EB4D7FD3C5E6336768EC98A7651F7B /* FLCommonLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				2CC2354022B8853E00F5A36D /* SampleClass.swift */,
+				2CC2354222B8A83500F5A36D /* SampleClass.swift */,
 				3073E931D87A19EB665E24B43A47ADBF /* Pod */,
 				5635A74B1FAA5A11F939DB52142C5BEA /* Support Files */,
 			);
@@ -371,7 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72E5348FB5FE3E65D591878E7FE19E4F /* FLCommonLibrary-dummy.m in Sources */,
-				2CC2354122B8853E00F5A36D /* SampleClass.swift in Sources */,
+				2CC2354322B8A83500F5A36D /* SampleClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
